@@ -1,0 +1,11 @@
+
+          _ _ _____     ___             _  __  __          __  
+         / / |___  |   / __\__  ___  __| | \ \/ / /\/\    / /  
+         | | |  / /   / _\/ _ \/ _ \/ _` |  \  / /    \  / /   
+         | | | / /   / / |  __/  __/ (_| |  /  \/ /\/\ \/ /___ 
+         |_|_|/_/    \/   \___|\___|\__,_| /_/\_\/    \/\____/ 
+
+
+Converts tab delimited ASIN attributes file to an XML file ready for upload to
+MFA VLP (https://mfa-ops-tool-na-prod.amazon.com/feedUpload.html?feedType=117)
+

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+    <Header>
+        <DocumentVersion>1.01</DocumentVersion>
+        <MerchantIdentifier>901368196</MerchantIdentifier>
+    </Header>
+    <MessageType>Item</MessageType>
+    <Message>
+        <MessageID>1</MessageID>
+        <OperationType>Delete</OperationType>
+        <Item>
+            <sku>
+                <value>B004XOK1SU</value>
+            </sku>
+            <MarketplaceData market_name="1"/>
+            <AdditionalData>
+                <itemId>
+                    <value>B004XOK1SU</value>
+                </itemId>
+            </AdditionalData>
+        </Item>
+    </Message>
+    <Message>
+        <MessageID>2</MessageID>
+        <OperationType>Delete</OperationType>
+        <Item>
+            <sku>
+                <value>B0000AQOJB</value>
+            </sku>
+            <MarketplaceData market_name="1"/>
+            <AdditionalData>
+                <itemId>
+                    <value>B0000AQOJB</value>
+                </itemId>
+            </AdditionalData>
+        </Item>
+    </Message>
+</AmazonEnvelope>

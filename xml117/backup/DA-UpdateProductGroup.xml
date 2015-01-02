@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+    <Header>
+        <DocumentVersion>1.01</DocumentVersion>
+        <MerchantIdentifier>901368196</MerchantIdentifier>
+    </Header>
+    <MessageType>Item</MessageType>
+    <Message>
+        <MessageID>1</MessageID>
+        <OperationType>PartialUpdate</OperationType>
+        <Item>
+            <sku>
+                <value>B00JG45SWQ</value>
+            </sku>
+            <MarketplaceData market_name="1">
+                <gl_product_group_type>
+                    <value>gl_biss</value>
+                </gl_product_group_type>
+                <display_on_website>
+                    <value>biss_display_on_website</value>
+                </display_on_website>
+            </MarketplaceData>
+            <AdditionalData>
+                <itemId>
+                    <value>B00JG45SWQ</value>
+                </itemId>
+            </AdditionalData>
+        </Item>
+    </Message>
+    <Message>
+        <MessageID>2</MessageID>
+        <OperationType>PartialUpdate</OperationType>
+        <Item>
+            <sku>
+                <value>B00JG452LI</value>
+            </sku>
+            <MarketplaceData market_name="1">
+                <gl_product_group_type>
+                    <value>gl_biss</value>
+                </gl_product_group_type>
+                <display_on_website>
+                    <value>biss_display_on_website</value>
+                </display_on_website>
+            </MarketplaceData>
+            <AdditionalData>
+                <itemId>
+                    <value>B00JG452LI</value>
+                </itemId>
+            </AdditionalData>
+        </Item>
+    </Message>
+</AmazonEnvelope>

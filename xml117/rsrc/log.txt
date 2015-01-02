@@ -1,0 +1,122 @@
+REMEMBER TO EXECUTE FROM PARENT DIRECTORY OF xml117
+
+From DOS prompt, using:
+(echo.
+date /t
+time /t
+echo java xml117.RunXML .\rsrc\test.txt
+java xml117.RunXML .\rsrc\test.txt
+) >> rsrc\log.txt 2<&1
+
+test.txt contents, only 7 valid rows of data (2, 7, 8 should be excluded)
+marketplace 1   Augmenter Token M_TEST_8790273      
+ASIN    gl_product_group_type   display_on_website  display_attribute   item_type_keyword   product_type_name
+B0A0000001  gl_biss biss_display_on_website biss_display_on_website med-stuff-itk   BISS
+    gl_biss biss_display_on_website biss_display_on_website med-stuff-itk   BISS
+B0A0000003      biss_display_on_website biss_display_on_website med-stuff-itk   BISS
+B0A0000004  gl_biss     biss_display_on_website med-stuff-itk   BISS
+B0A0000005  gl_biss biss_display_on_website     med-stuff-itk   BISS
+B0A0000006  gl_biss biss_display_on_website biss_display_on_website     BISS
+B0AA0000007 gl_biss biss_display_on_website biss_display_on_website med-stuff-itk   
+B0A00008    gl_biss biss_display_on_website biss_display_on_website med-stuff-itk   BISS
+B0A0000009                  
+B0A0000010                  BISS
+
+
+Tue 12/30/2014 
+02:59 PM
+java xml117.RunXML  
+
+
+
+          _ _ _____     ___             _  __  __          __  
+         / / |___  |   / __\__  ___  __| | \ \/ / /\/\    / /  
+         | | |  / /   / _\/ _ \/ _ \/ _` |  \  / /    \  / /   
+         | | | / /   / / |  __/  __/ (_| |  /  \/ /\/\ \/ /___ 
+         |_|_|/_/    \/   \___|\___|\__,_| /_/\_\/    \/\____/ 
+
+
+Converts tab delimited ASIN attributes file to an XML file ready for upload to
+MFA VLP (https://mfa-ops-tool-na-prod.amazon.com/feedUpload.html?feedType=117)
+
+Warning: No data file specified.
+Usage:   java xml117.RunXML <inputfile>.txt
+         Ending.
+
+
+
+Tue 12/30/2014 
+02:59 PM
+java xml117.RunXML rsrc\test.txt txt.tst
+
+
+
+          _ _ _____     ___             _  __  __          __  
+         / / |___  |   / __\__  ___  __| | \ \/ / /\/\    / /  
+         | | |  / /   / _\/ _ \/ _ \/ _` |  \  / /    \  / /   
+         | | | / /   / / |  __/  __/ (_| |  /  \/ /\/\ \/ /___ 
+         |_|_|/_/    \/   \___|\___|\__,_| /_/\_\/    \/\____/ 
+
+
+Converts tab delimited ASIN attributes file to an XML file ready for upload to
+MFA VLP (https://mfa-ops-tool-na-prod.amazon.com/feedUpload.html?feedType=117)
+
+Warning: Too many arguments.
+Usage:   java xml117.RunXML <inputfile>.txt
+         Ending.
+
+
+
+Tue 12/30/2014 
+03:00 PM
+java xml117.RunXML rsrc\test2.txt
+
+
+
+          _ _ _____     ___             _  __  __          __  
+         / / |___  |   / __\__  ___  __| | \ \/ / /\/\    / /  
+         | | |  / /   / _\/ _ \/ _ \/ _` |  \  / /    \  / /   
+         | | | / /   / / |  __/  __/ (_| |  /  \/ /\/\ \/ /___ 
+         |_|_|/_/    \/   \___|\___|\__,_| /_/\_\/    \/\____/ 
+
+
+Converts tab delimited ASIN attributes file to an XML file ready for upload to
+MFA VLP (https://mfa-ops-tool-na-prod.amazon.com/feedUpload.html?feedType=117)
+
+Warning: Header row should have 4 fields
+         Contents of header row
+         Header field 0: marketplace
+         Header field 1: 1
+         Header field 2: Augmenter Token
+         Header field 3: M_TEST_8790273
+         Header field 4: 901368196
+Warning: Row overflows attribute columns on row: 9
+         Check your data file.
+Warning: Row overflows attribute columns on row: 11
+         Check your data file.
+Warning: Input file not valid, ending.
+
+Tue 12/30/2014 
+03:02 PM
+java xml117.RunXML rsrc\test.txt
+
+
+
+          _ _ _____     ___             _  __  __          __  
+         / / |___  |   / __\__  ___  __| | \ \/ / /\/\    / /  
+         | | |  / /   / _\/ _ \/ _ \/ _` |  \  / /    \  / /   
+         | | | / /   / / |  __/  __/ (_| |  /  \/ /\/\ \/ /___ 
+         |_|_|/_/    \/   \___|\___|\__,_| /_/\_\/    \/\____/ 
+
+
+Converts tab delimited ASIN attributes file to an XML file ready for upload to
+MFA VLP (https://mfa-ops-tool-na-prod.amazon.com/feedUpload.html?feedType=117)
+
+
+
+                - - Your .xml File is ready - -
+                - - ASIN data rows parsed: 7
+                - - Thanks    for   playing - - 
+
+
+@note All Pass!  test.txt_117.xml is a match to _Correct file.

@@ -1,0 +1,14 @@
+marketplace	1	Augmenter Token	M_TEST_8790273	901368196			
+ASIN	gl_product_group_type	display_on_website	display_attribute	item_type_keyword	product_type_name		
+B0A0000001	gl_biss	biss_display_on_website	biss_display_on_website	med-stuff-itk	BISS		
+	gl_biss	biss_display_on_website	biss_display_on_website	med-stuff-itk	BISS		
+B0A0000003		biss_display_on_website	biss_display_on_website	med-stuff-itk	BISS		
+B0A0000004	gl_biss		biss_display_on_website	med-stuff-itk	BISS		
+B0A0000005	gl_biss	biss_display_on_website		med-stuff-itk	BISS		
+B0A0000006	gl_biss	biss_display_on_website	biss_display_on_website		BISS		
+B0A0000007	gl_biss	biss_display_on_website	biss_display_on_website	med-stuff-itk		PRO_MEDICAL	
+B0A0000008	gl_biss	biss_display_on_website	biss_display_on_website	med-stuff-itk	BISS		
+B0A0000009	gl_biss	biss_display_on_website	biss_display_on_website	med-stuff-itk	BISS	variation_parent	alt-itk
+B0A0000010	gl_biss	biss_display_on_website	biss_display_on_website	med-stuff-itk			
+B0A0000011							
+B0A0000012					BISS		
