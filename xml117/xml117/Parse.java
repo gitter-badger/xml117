@@ -99,8 +99,8 @@ public class Parse {
     
             HelperUtilities.printBlanks(2);
             System.out.println("                - - Your .xml File is ready - -"); 
-            System.out.println("                - - ASIN data rows parsed: " + countRows); 
-            System.out.println("                - - Thanks    for   playing - - ");
+            System.out.println("                - - ASIN data rows complete: " + countRows); 
+            System.out.println("                - - Thanks    for   parsing - - ");
             HelperUtilities.printBlanks(2); 
 
         } catch(IOException e) { HelperUtilities.printExceptionMessage(e, "Parse"); } 
